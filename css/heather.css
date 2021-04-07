@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify-all;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    
+    padding: 10px 50px 10px 50px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);              
+}
+
+.logo{
+    color: aliceblue;
+}
+
+.nav{
+    list-style: none;
+    width: 200px;
+        
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+:root{
+    --color1:aliceblue;
+    --color2:#FF9A8B;
+    --color3:#13C2BC;
+    --color4:#1BF2CB;
+    --color5:#28F588;
+    --color6:#0093E9;
+}
